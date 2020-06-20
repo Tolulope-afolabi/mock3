@@ -1,0 +1,62 @@
+div{
+    border: 3px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 0;
+    border-left: 3px solid black;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 5px 5px 3px 3px;
+}
+
+.banner{
+    display: flex;
+    align-self: center;
+    background: green;
+    margin: 60px 30px 10px 30px;
+    height: 200px;
+    width: 90%;
+}
+
+.image{
+    border: 0;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+}
+.image .mid{
+    margin: 0px 30px;
+}
+
+.container{
+    border: 0;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    /* height: 500px; */
+    width: 92%;
+}
+.orange{
+    background: rgb(226, 154, 19);
+    height: 253px;
+    width: 380px;
+}
+
+.red{
+    background: rgb(228, 41, 41);
+    height: 253px;
+    width: 380px;
+    margin: 0 30px;
+}
+
+.blue{
+    background: rgb(70, 182, 190);
+    height: 253px;
+    width: 380px;
+}
